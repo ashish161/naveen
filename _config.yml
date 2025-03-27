@@ -1,0 +1,33 @@
+title: Dubai Real Estate Analytics
+description: Professional real estate investment analysis and portfolio optimization in Dubai
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+author: Your Name
+twitter:
+  username: yourhandle
+  card: summary
+social:
+  name: Your Name
+  links:
+    - https://linkedin.com/in/yourprofile
+    - https://twitter.com/yourhandle
+
+# Analytics
+google_analytics: UA-XXXXXXXX-X
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name
+  market_insights:
+    output: true
+    permalink: /insights/:year/:month/:day/:title 
