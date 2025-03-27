@@ -3,18 +3,18 @@ description: Professional real estate investment analysis and portfolio optimiza
 baseurl: "/naveen"
 url: "https://ashish161.github.io"
 
-# Build settings
-remote_theme: pages-themes/minimal@v0.2.0
+# Theme settings
+theme: jekyll-theme-minimal
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Theme settings
-logo: /assets/images/logo.png
+# Theme customization
 show_downloads: false
+logo: /assets/images/logo.png
 
 # Basic settings
 author: Your Name
+google_analytics: # Optional
 
 # SEO settings
 twitter:
@@ -25,9 +25,6 @@ social:
   links:
     - https://linkedin.com/in/yourprofile
     - https://twitter.com/yourhandle
-
-# Analytics
-google_analytics: UA-XXXXXXXX-X
 
 # Collections
 collections:
