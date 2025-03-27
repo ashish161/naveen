@@ -19,6 +19,11 @@ jobs:
         ruby-version: '3.1.0'
         bundler-cache: true
     
+    - name: Configure Bundler
+      run: |
+        bundle config set --local deployment 'true'
+        bundle config set --local frozen 'false'
+    
     - name: Install dependencies
       run: |
         rm -f Gemfile.lock
