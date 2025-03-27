@@ -6,17 +6,21 @@ permalink: /contact/
 
 # Get in Touch
 
-<form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="_replyto" placeholder="Email Address" required>
-    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
-    <input type="hidden" name="_subject" value="New Website Inquiry">
-    <button type="submit">Send Message</button>
-</form>
+## Contact Options
 
-<div class="contact-info">
-    <h2>Dubai Office</h2>
-    <p>Business Bay<br>
-    Dubai, United Arab Emirates</p>
-    <p>Email: info@yourdomain.com</p>
-</div> 
+### Direct Email
+[Send us an email](mailto:your.email@domain.com?subject=Real%20Estate%20Investment%20Inquiry){: .cta-button}
+
+### Dubai Office
+Business Bay  
+Dubai, United Arab Emirates  
+Email: your.email@domain.com
+
+<iframe src="YOUR_GOOGLE_FORM_URL" width="100%" height="800" frameborder="0">Loading…</iframe>
+
+<form id="contact-form" action="YOUR_API_GATEWAY_URL" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+    <button type="submit">Send Message</button>
+</form> 
