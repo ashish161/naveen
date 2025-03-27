@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 # Dubai Real Estate Market Intelligence
@@ -14,4 +13,4 @@ Expert real estate investment analysis and portfolio optimization in Dubai's dyn
 - **Comprehensive market insights** across prime Dubai assets
 - **Tax-efficient structuring** for optimal returns
 
-[Contact Us](/contact){: .cta-button} 
+[Contact Us]({{ '/contact' | relative_url }}) 
