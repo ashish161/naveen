@@ -1,1 +1,4 @@
-Sitemap: http://localhost:4000/naveen/sitemap.xml
+User-agent: *  # Applies to all crawlers
+Disallow: /private/  # Block access to specific directories
+Allow: /  # Allow access to all other content
+Sitemap: https://ashish161.github.io/naveen/sitemap.xml
