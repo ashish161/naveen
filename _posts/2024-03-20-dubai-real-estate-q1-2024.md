@@ -7,7 +7,8 @@ categories: market-analysis
 
 # Dubai Real Estate Market Analysis - Q1 2024
 
-## Executive Summary
+##   Summary
+Xxxxxx
 The Dubai real estate market has shown robust growth in Q1 2024, with significant developments in both residential and commercial sectors.
 
 ## Key Findings

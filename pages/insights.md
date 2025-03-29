@@ -13,6 +13,10 @@ Stay informed with our latest analysis of Dubai's dynamic real estate market. Ou
 
 ## Featured Insights
 
+### Q3 2024 Market Overview
+- Analysis of prime residential areas
+- This is q3 updates 
+
 ### Q1 2024 Market Overview
 - Analysis of prime residential areas
 - Commercial property trends
