@@ -8,6 +8,7 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 
 # Theme customization
