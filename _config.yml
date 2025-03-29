@@ -4,9 +4,10 @@ baseurl: "/naveen"
 url: "https://ashish161.github.io"
 
 # Theme settings
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-seo-tag
 
 # Theme customization
 show_downloads: false
