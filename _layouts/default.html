@@ -18,6 +18,10 @@
             background-color: #fff;
             border-bottom: 1px solid #ddd;
         }
+        nav a.active {
+            color: blue; /* Active link color */
+            font-weight: bold; /* Optional: Make it bold */
+        }
 
         header .logo {
             display: flex;
@@ -60,14 +64,16 @@
         
         <div>
             <!-- Navigation Menu -->
+         
             <nav>
-                <a href="{{ site.baseurl }}/">Home</a><br>
-                <a href="{{ site.baseurl }}/what-we-do">What We Do</a><br>
-                <a href="{{ site.baseurl }}/services">Services</a><br>
-                <a href="{{ site.baseurl }}/insights">Market Insights</a><br>
-                <a href="{{ site.baseurl }}/testimonials">Testimonials</a><br>
-                <a href="{{ site.baseurl }}/contact">Contact</a>
+                <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+                <a href="{{ site.baseurl }}/what-we-do/" class="{% if page.url == '/what-we-do/' %}active{% endif %}">What We Do</a>
+                <a href="{{ site.baseurl }}/services/" class="{% if page.url == '/services/' %}active{% endif %}">Services</a>
+                <a href="{{ site.baseurl }}/insights/" class="{% if page.url == '/insights/' %}active{% endif %}">Market Insights</a>
+                <a href="{{ site.baseurl }}/testimonials/" class="{% if page.url == '/testimonials/' %}active{% endif %}">Testimonials</a>
+                <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
             </nav>
+            
       
 
         <div>
