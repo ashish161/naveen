@@ -8,7 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% seo %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
     <style>
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+ 
+      font-size: 16px;
+    }
+    
+    .links a {
+      color: #333;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    
+    .links a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      display: block;
+      margin-top: 5px;
+      right: 0;
+      background: #2ecc71;
+      transition: width 0.3s ease;
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    
+    .links a:hover {
+      color: #2ecc71;
+    }
+    
+    .links a:hover::after {
+      width: 100%;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
         /* Header Styles */
         header {
             display: flex;
@@ -22,6 +62,7 @@
             color: #267CB9; /* Active link color */
             font-weight: bold; /* Optional: Make it bold */
         }
+        
 
         header .logo {
             display: flex;
@@ -40,22 +81,7 @@
             color: #333;
         }
 
-        nav {
-            display: flex;
-            gap: 20px;
-        }
-
-        nav a {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            color: #333;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            color: #ff5722; /* Highlight color */
-        }
+       
     </style>
 </head>
 <body>
@@ -65,7 +91,7 @@
         <div>
             <!-- Navigation Menu -->
          
-            <nav>
+            <nav class="links">
                 <img src="{{site.logo | relative_url}}" alt="Logo" height="50" width="50"/>
                 <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
                 <a href="{{ site.baseurl }}/aboutus/" class="{% if page.url == '/aboutus/' %}active{% endif %}">About Us</a>
@@ -88,6 +114,22 @@
             {{ content }}
         </div>
 
+        <div class="links">
+            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://facebook.com/yourfacebookpage" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://github.com/yourgithubhandle" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          
+         
     </div>
         <!-- Footer Section -->
         <footer>
