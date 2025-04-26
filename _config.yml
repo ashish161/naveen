@@ -13,7 +13,7 @@ plugins:
 
 # Theme customization
 show_downloads: false
-# logo: /assets/images/logo.png
+logo: /assets/images/logo.png
 
 # Basic settings
 author: Your Name
