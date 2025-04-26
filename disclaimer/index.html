@@ -27,7 +27,47 @@
 {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Your Name"},"description":"Professional real estate investment analysis and portfolio optimization in Dubai","headline":"Disclaimer","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ashish161.github.io/naveen/assets/images/logo.png"},"name":"Your Name"},"url":"https://ashish161.github.io/naveen/disclaimer/"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
     <style>
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+ 
+      font-size: 16px;
+    }
+    
+    .links a {
+      color: #333;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    
+    .links a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      display: block;
+      margin-top: 5px;
+      right: 0;
+      background: #2ecc71;
+      transition: width 0.3s ease;
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    
+    .links a:hover {
+      color: #2ecc71;
+    }
+    
+    .links a:hover::after {
+      width: 100%;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
         /* Header Styles */
         header {
             display: flex;
@@ -41,6 +81,7 @@
             color: #267CB9; /* Active link color */
             font-weight: bold; /* Optional: Make it bold */
         }
+        
 
         header .logo {
             display: flex;
@@ -59,22 +100,7 @@
             color: #333;
         }
 
-        nav {
-            display: flex;
-            gap: 20px;
-        }
-
-        nav a {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            color: #333;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            color: #ff5722; /* Highlight color */
-        }
+       
     </style>
 </head>
 <body>
@@ -84,7 +110,7 @@
         <div>
             <!-- Navigation Menu -->
          
-            <nav>
+            <nav class="links">
                 <img src="/naveen/assets/images/logo.png" alt="Logo" height="50" width="50"/>
                 <a href="/naveen/" class="">Home</a>
                 <a href="/naveen/aboutus/" class="">About Us</a>
@@ -184,6 +210,22 @@ These Terms of Use are governed by the laws of the UAE, without respect to its c
 
         </div>
 
+        <div class="links">
+            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://facebook.com/yourfacebookpage" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://github.com/yourgithubhandle" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          
+         
     </div>
         <!-- Footer Section -->
         <footer>
