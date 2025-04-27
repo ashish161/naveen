@@ -8,3 +8,5 @@ permalink: /tagline/
 ---
 
 > _Beyond Transactions, Building Trust_
+---
+[Privacy Policy]({{ '/privacy_policy/' | relative_url }}) | [Terms and Conditions]({{ '/tnc/' | relative_url }}) 
