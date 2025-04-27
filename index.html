@@ -4,17 +4,27 @@ title: Home
 ---
 
 <nav class="navbar">
-  <ul>
-    {% for section in site.sections %}
-      {% unless section.hidden %}
-        <li>
-          <a href="#{{ section.title | downcase | replace: ' ', '-' }}">
-            {{ section.title }}
-          </a>
-        </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
+  <div class="nav-container">
+    <span class="nav-logo"></span>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <span class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </a>
+    <ul id="nav-links">
+      {% for section in site.sections %}
+        {% unless section.hidden %}
+          <li>
+            <a href="#{{ section.title | downcase | replace: ' ', '-' }}">
+              {{ section.title }}
+            </a>
+          </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
 
 <div class="container">
@@ -26,3 +36,10 @@ title: Home
     {% endunless %}
   {% endfor %}
 </div>
+
+<script>
+function toggleNav() {
+  var nav = document.getElementById("nav-links");
+  nav.classList.toggle("show");
+}
+</script>

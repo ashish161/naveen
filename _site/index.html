@@ -8,45 +8,55 @@
 </head>
 <body>
   <nav class="navbar">
-  <ul>
-    
+  <div class="nav-container">
+    <span class="nav-logo"></span>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+      <span class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </a>
+    <ul id="nav-links">
       
-        <li>
-          <a href="#our-story">
-            Our Story
-          </a>
-        </li>
+        
+          <li>
+            <a href="#our-story">
+              Our Story
+            </a>
+          </li>
+        
       
-    
+        
+          <li>
+            <a href="#what-we-do">
+              What We Do
+            </a>
+          </li>
+        
       
-        <li>
-          <a href="#what-we-do">
-            What We Do
-          </a>
-        </li>
+        
+          <li>
+            <a href="#team">
+              Team
+            </a>
+          </li>
+        
       
-    
+        
+          <li>
+            <a href="#contact">
+              Contact
+            </a>
+          </li>
+        
       
-        <li>
-          <a href="#team">
-            Team
-          </a>
-        </li>
+        
       
-    
+        
       
-        <li>
-          <a href="#contact">
-            Contact
-          </a>
-        </li>
-      
-    
-      
-    
-      
-    
-  </ul>
+    </ul>
+  </div>
 </nav>
 
 <div class="container">
@@ -153,6 +163,13 @@ Enabling Growth, Empowering Success</p>
     
   
 </div>
+
+<script>
+function toggleNav() {
+  var nav = document.getElementById("nav-links");
+  nav.classList.toggle("show");
+}
+</script>
 
 </body>
 </html>
