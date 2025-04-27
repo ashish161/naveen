@@ -2,6 +2,7 @@
 layout: default
 title: What We Do
 permalink: /what-we-do/
+order: 1
 ---
 
 # What We Do

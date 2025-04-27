@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+<nav class="navbar">
+  <ul>
+    {% for section in site.sections %}
+      {% unless section.hidden %}
+        <li>
+          <a href="#{{ section.title | downcase | replace: ' ', '-' }}">
+            {{ section.title }}
+          </a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</nav>
+
+<div class="container">
+  {% for section in site.sections %}
+    {% unless section.hidden %}
+      <section id="{{ section.title | downcase | replace: ' ', '-' }}">
+        {{ section.content | markdownify }}
+      </section>
+    {% endunless %}
+  {% endfor %}
+</div>

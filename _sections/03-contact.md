@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Contact - My One-Page Site</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <h1 id="get-in-touch">Get in Touch</h1>
+---
+layout: default
+order: 2
+title: Contact
+permalink: /contact/
+---
 
-<h2 id="direct-email">Direct Email</h2>
-<p class="cta-button"><a href="mailto:naveen@unnati.ae?subject=Real%20Estate%20Investment%20Inquiry">Send us an email</a></p>
+# Get in Touch
+
+## Direct Email
+[Send us an email](mailto:naveen@unnati.ae?subject=Real%20Estate%20Investment%20Inquiry)
+{: .cta-button}
 
 <div class="links">
   <a href="mailto:naveen@unnati.ae" target="_blank" rel="noopener noreferrer" style="padding: 0px;">
@@ -26,6 +25,3 @@
     <i class="fab fa-linkedin"></i> LinkedIn
   </a>
 </div>
-
-</body>
-</html>

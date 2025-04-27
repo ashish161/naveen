@@ -1,6 +1,6 @@
 title: Dubai Real Estate Analytics
 description: Professional real estate investment analysis and portfolio optimization in Dubai
-baseurl: "/naveen"
+
 url: "https://ashish161.github.io"
 
 # Theme settings
@@ -30,10 +30,8 @@ social:
     - https://twitter.com/yourhandle
 
 # Collections
+title: My One-Page Site
 collections:
-  services:
+  sections:
     output: true
-    permalink: /:collection/:name
-  market_insights:
-    output: true
-    permalink: /insights/:year/:month/:day/:title 
+    sort_by: order

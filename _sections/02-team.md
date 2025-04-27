@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Team
+order: 3
 permalink: /team/
 ---
 

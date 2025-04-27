@@ -1,10 +1,47 @@
 ---
 layout: default
-title: Terms and Conditions
-permalink: /tnc/
+order: 3
+title: Privacy Policy
+permalink: /privacy_policy/
+hidden: true
 ---
 
+## Privacy Policy
 
+### General
+Your privacy is important to us, and this Privacy Policy (“Privacy Policy”) will tell you what information we collect, how we protect it, and what choices you have about how the collected information is used. For purposes of this Privacy Policy, “we”, “our”, and “us” refers to Unnati Ventures FZ LLC (“Unnati”). The words “you” and “your” refers to each user of the website located at www.unnati.ae. All capitalized terms used but not defined herein shall have the meanings set forth in the Terms of Use.
+Information We Collect and Why
+
+### Personal Information
+Personal information is information that, at the time of its disclosure, can either identify, describe or be associated with an individual, and includes: first and last name, a home or other address, an email address, a telephone number, and occupation (“Personal Information”). Unnati only collects Personal Information that you choose to share with us, such as when you contact us via the Site.
+
+### Email Addresses
+Other than as described in this Privacy Policy, we do not rent, share, or exchange your email addresses. Subject to other provisions contained in this Privacy Policy, email addresses voluntarily given to us or collected from email comments are never shared. We do use these addresses for our own electronic correspondence purposes.
+
+##Automatically Tracked Information
+The Site automatically tracks certain information, such as your domain name, browser type, and pages accessed, while visiting the Site. This information is aggregated in non-personally identifiable form and is used for marketing purposes and for monitoring the traffic our Site is generating. This gives us valuable information on which pages are visited most frequently, and which outside links are being utilized most. We use this data to improve the Site and your experience on it. We do not monitor navigation patterns outside of our Site, but we do gather information on referral sites that send visitors to us.
+
+## Sharing Information with Affiliates and Service Providers
+Subject to applicable law, we and our Service Providers (as defined below) may disclose your Personal Information:
+To unaffiliated third parties that are under contract to perform services for or on behalf of Unnati (“Service Providers”), including, webmasters, information technology specialists, and the like. Service Providers are required to uphold and maintain policies with respect to privacy and the treatment of your Personal Information; and
+To other persons, including law enforcement officials, as permitted or required by applicable law or regulation.
+Any access to such information will be limited to the purpose for which such information was provided to the affiliate, Service Provider or law enforcement official. In addition, federal, state and foreign laws give people with governmental, regulatory or supervisory responsibility, and those involved in lawsuits and other legal proceedings, the right under certain circumstances to obtain information from us, our affiliates and from our Service Providers, including your Personal Information. Subject to our professional standards, you should understand that Unnati, our affiliates and Service Providers will comply with these laws to the extent we and they are required to do so.
+
+## Sale or Transfer of Information
+In the event of a sale, merger, liquidation, dissolution, or transfer of part of the business, trade or assets of Unnati and/or any of its individual affiliates, all information, including without limitation, Personal Information collected about you via this Site may be sold, assigned, or transferred to the party acquiring all or substantially all of the equity or assets or business of Unnati and/or our affiliates. Subject to your election to opt out as described below, by using this Site, you consent to the sale and transfer of your information as described in this paragraph.
+
+## Cookies
+This Site uses cookie technology. Cookies are pieces of information downloaded to your computer by our web server. These cookies are used for referral tracking, and to track your navigation patterns through our Site. These cookies give us information on what site sent you to us and what pages you are viewing on the Site.
+
+## Third-Party Web Sites
+This Privacy Policy applies only to www.unnati.ae. This Site may contain links to other sites. Please be aware that we are not responsible for the privacy practices of such other sites. We encourage our users to be aware when they leave our Site and to read the privacy policies of each web site that collects Personal Information.
+
+## Security
+We maintain physical, electronic, and procedural safeguards to help guard Personal Information. Please be aware, however, that any email or other transmission you send through the Internet cannot be completely protected against unauthorized interception.
+
+## Changes to the Privacy Policy
+We may revise this Privacy Policy from time to time. If we decide to change our Privacy Policy, we will post the revised policy here. As we may make changes at any time without notifying you, we suggest that you periodically consult this Privacy Policy. Please note that our rights to use Personal Information will be based on the privacy policy in effect at the time the information is used.
+For questions or changes regarding privacy or your mailing list status, please reach us through the “Contact” link below.
 
 # Terms and Conditions
 ## Legal
