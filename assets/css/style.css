@@ -196,6 +196,7 @@ html {
 .footer-links {
   margin: 18px 0 10px 0;
   letter-spacing: 0.01em;
+  font-size: 0.8em;
 }
 
 .footer-links a {
@@ -219,6 +220,7 @@ html {
   margin-top: 14px;
   color: grey;
   opacity: 0.85;
+  font-size: 0.8em;
 }
 
 
