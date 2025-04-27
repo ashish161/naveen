@@ -1,6 +1,6 @@
 ---
 layout: default
-order: 3
+order: 5
 title: Privacy Policy
 permalink: /privacy_policy/
 hidden: true
