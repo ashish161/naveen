@@ -7,7 +7,8 @@ permalink: /team/
 ---
 
 # Team 
-Naveen Daga CFA, ACA Partner 
+Naveen Daga CFA, ACA 
+Partner 
 
 
 <a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn">LinkedIn 
