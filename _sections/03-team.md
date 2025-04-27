@@ -9,7 +9,7 @@ permalink: /team/
 # Team 
 Naveen Daga CFA, ACA Partner 
 
-<a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-square">Li</i></a>
+<a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn">LinkedIn<i class="fab fa-linkedin-square"></i></a>
 
 He has over 16 years of experience across real estate development, mergers and acquisitions, strategic joint ventures, and asset management. 
 
