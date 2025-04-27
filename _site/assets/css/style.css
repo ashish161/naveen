@@ -141,6 +141,7 @@ html {
 
 .links a i {
   font-size: 1.1em;
+  transition: color 0.2s;
 }
 
 /* Brand colors for icons */
@@ -163,8 +164,7 @@ html {
   color: #fff !important;
 }
 .custom-footer {
-  background: #ffffff;
-  color: #fff;
+  color:  #293366;
   text-align: center;
   padding: 40px 16px 24px 16px;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
@@ -177,7 +177,6 @@ html {
 .footer-social a {
   display: inline-block;
   margin: 0 18px;
-  color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
   width: 56px;
