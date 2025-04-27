@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% seo %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+<html lang="{{ site.lang | default: " en-US" }}">
 
-    <style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% seo %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" />
+
+  <style>
     .links {
       display: flex;
       gap: 1.5rem;
       margin-top: 2rem;
- 
       font-size: 16px;
     }
-    
+
     .links a {
       color: #333;
       text-decoration: none;
       position: relative;
       transition: color 0.3s ease;
+      padding: 0 1rem;
+      position: relative;
     }
-    
+
     .links a::after {
       content: '';
       position: absolute;
@@ -33,112 +36,115 @@
       height: 2px;
       display: block;
       margin-top: 5px;
-      right: 0;
       background: #2ecc71;
       transition: width 0.3s ease;
       transform: scaleX(0);
       transform-origin: right;
     }
-    
+
     .links a:hover {
       color: #2ecc71;
     }
-    
+
     .links a:hover::after {
       width: 100%;
       transform: scaleX(1);
       transform-origin: left;
     }
-        /* Header Styles */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            background-color: #fff;
-            border-bottom: 1px solid #ddd;
-        }
-        nav a.active {
-            color: #267CB9; /* Active link color */
-            font-weight: bold; /* Optional: Make it bold */
-        }
-        
 
-        header .logo {
-            display: flex;
-            align-items: center;
-        }
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
 
-        header .logo img {
-            height: 30px;
-            margin-right: 10px;
-        }
+    nav a.active {
+      color: #267CB9;
+      /* Active link color */
+      font-weight: bold;
+      /* Optional: Make it bold */
+    }
 
-        header .logo h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            color: #333;
-        }
 
-       
-    </style>
+
+
+    header .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    header .logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    header .logo h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #333;
+    }
+  </style>
 </head>
+
 <body>
-   
-        <!-- Header Section -->
-        
-        <div>
-            <!-- Navigation Menu -->
-         
-            <nav class="links">
-                <img src="{{site.logo | relative_url}}" alt="Logo" height="50" width="50"/>
-                <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-                <a href="{{ site.baseurl }}/aboutus/" class="{% if page.url == '/aboutus/' %}active{% endif %}">About Us</a>
-                <a href="{{ site.baseurl }}/profile/" class="{% if page.url == '/profile/' %}active{% endif %}">Profile</a>
-                <a href="{{ site.baseurl }}/values/" class="{% if page.url == '/values/' %}active{% endif %}">Vaules</a>
-                <a href="{{ site.baseurl }}/what-we-do/" class="{% if page.url == '/what-we-do/' %}active{% endif %}">What We Do</a>
-                <a href="{{ site.baseurl }}/services/" class="{% if page.url == '/services/' %}active{% endif %}">Services</a>
-                <a href="{{ site.baseurl }}/insights/" class="{% if page.url == '/insights/' %}active{% endif %}">Market Insights</a>
-                <a href="{{ site.baseurl }}/testimonials/" class="{% if page.url == '/testimonials/' %}active{% endif %}">Testimonials</a>
-                <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-                <a href="{{ site.baseurl }}/disclaimer/" class="{% if page.url == '/disclaimer/' %}active{% endif %}">Disclaimer</a>
-            </nav>
-            
-      
 
-        <div>
-        <!-- Content Section -->
-        <div>
-        </br>
-            {{ content }}
-        </div>
+  <!-- Header Section -->
 
-        <div class="links">
-            <a href="mailto:naveen@unnati.ae" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-envelope"></i> Email
-              </a>
-              <a href="tel:+971504584204 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-phone"></i> Call
-              </a>
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter"></i> Twitter
-            </a>
-           
-            <a href="https://www.linkedin.com/in/navindaga/" target="_blank" rel="noopener noreferrer">
-              <i class="fab  fa-linkedin"></i> Naveen Daga
-            </a>
-            <a href="https://www.linkedin.com/company/unnati-ventures-fz-llc/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-          </div>
-          
-         
+  <div>
+    <!-- Navigation Menu -->
+
+    <nav class="links">
+      <img src="{{site.logo | relative_url}}" alt="Logo" height="50" width="50" />
+      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ site.baseurl }}/aboutus/" class="{% if page.url == '/aboutus/' %}active{% endif %}">About Us</a>
+      <a href="{{ site.baseurl }}/profile/" class="{% if page.url == '/profile/' %}active{% endif %}">Profile</a>
+      <a href="{{ site.baseurl }}/values/" class="{% if page.url == '/values/' %}active{% endif %}">Vaules</a>
+      <a href="{{ site.baseurl }}/what-we-do/" class="{% if page.url == '/what-we-do/' %}active{% endif %}">What We
+        Do</a>
+      <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+      <a href="{{ site.baseurl }}/disclaimer/"
+        class="{% if page.url == '/disclaimer/' %}active{% endif %}">Disclaimer</a>
+    </nav>
+
+
+
+    <div>
+      <!-- Content Section -->
+      <div>
+        {{ content }}
+      </div>
+
+      <div class="links">
+        <a href="mailto:naveen@unnati.ae" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="tel:+971504584204 target=" _blank" rel="noopener noreferrer">
+          <i class="fas fa-phone"></i> Call
+        </a>
+        <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+
+        <a href="https://www.linkedin.com/in/navindaga/" target="_blank" rel="noopener noreferrer">
+          <i class="fab  fa-linkedin"></i> Naveen Daga
+        </a>
+        <a href="https://www.linkedin.com/company/unnati-ventures-fz-llc/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+
+
     </div>
-        <!-- Footer Section -->
-        <footer>
-            <p><small>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
-        </footer>
-    </div>
+    <!-- Footer Section -->
+    <footer>
+      <p><small>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</small></p>
+    </footer>
+  </div>
 </body>
+
 </html>
