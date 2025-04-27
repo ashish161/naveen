@@ -7,4 +7,4 @@ permalink: /tagline/
 
 ---
 
-#### _Beyond Transactions, Building Trust_
+> _Beyond Transactions, Building Trust_
