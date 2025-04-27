@@ -28,5 +28,4 @@ _Our stakeholders' needs and aspirations take center stage as we cultivate endur
 
 
 
-
-[Disclaimer]({{ '/disclaimer' | relative_url }}) 
+[Privacy Policy]({{ '/privacy_policy' | relative_url }})  |[Email Disclaimer]({{ '/disclaimer_email' | relative_url }})  |  [Terms & Conditions]({{ '/tnc' | relative_url }}) 
