@@ -8,6 +8,7 @@ permalink: /team/
 
 # Team 
 Naveen Daga CFA, ACA 
+
 Partner 
 
 
