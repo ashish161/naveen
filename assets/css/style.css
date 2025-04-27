@@ -40,6 +40,10 @@ body {
   margin: 0 auto;
   padding: 80px 0 40px 0; /* Top padding for navbar */
 }
+section {
+  width: auto;
+  float: right;
+  padding-bottom: 50px; }
 
 
 html {
