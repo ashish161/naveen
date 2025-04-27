@@ -177,7 +177,7 @@ html {
 .footer-social a {
   display: inline-block;
   margin: 0 18px;
-  border: 2px solid #fff;
+  border: 2px solid  #293366;
   border-radius: 50%;
   width: 56px;
   height: 56px;
@@ -188,7 +188,7 @@ html {
 }
 
 .footer-social a:hover {
-  background: #fff;
+  background:  #293366;
   color: #293366;
   text-decoration: none;
 }
@@ -200,7 +200,7 @@ html {
 }
 
 .footer-links a {
-  color: #fff;
+  color:  #293366;
   text-decoration: none;
   margin: 0 8px;
   transition: color 0.2s;
@@ -208,7 +208,7 @@ html {
 
 .footer-links a:hover {
   text-decoration: underline;
-  color: #d1d7f0;
+  color:  #293366;
 }
 
 .footer-links .divider {
@@ -219,7 +219,7 @@ html {
 .footer-copy {
   margin-top: 14px;
   font-size: 1.05em;
-  color: #fff;
+  color: #293366;
   opacity: 0.85;
 }
 
