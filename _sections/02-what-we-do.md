@@ -14,15 +14,12 @@ order: 2
   - Mergers and acquisition, partnerships and joint venture opportunities 
   - Business transformation and restructuring solutions 
 
----
-
 #### Investment Advisory 
   - Institutional-grade investment opportunities in UAE and USA real estate sectors
   - Investment opportunities for long term wealth creation in India
   - Wealth and portfolio management solutions
   - Performance monitoring and asset management 
 
----
 
 #### Financial Advisory
   - Corporate finance solutions, capital raising and bank financing
