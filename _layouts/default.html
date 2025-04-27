@@ -103,6 +103,23 @@
       margin:0px;
       font-weight: bold;
     }
+    @media (max-width: 768px) {
+      nav.links {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav.links img {
+        margin-bottom: 1rem;
+        height: 80px;
+        width: 80px;
+      }
+
+      nav.links a {
+        padding: 0.5rem 0;
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
 
@@ -117,7 +134,7 @@
       <img src="{{site.logo | relative_url}}" alt="Logo" height="100" width="100" />
       <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
       <a href="{{ site.baseurl }}/profile/" class="{% if page.url == '/profile/' %}active{% endif %}">Profile</a>
-      <a href="{{ site.baseurl }}/values/" class="{% if page.url == '/values/' %}active{% endif %}">Vaules</a>
+      <a href="{{ site.baseurl }}/values/" class="{% if page.url == '/values/' %}active{% endif %}">Valuses</a>
       <a href="{{ site.baseurl }}/what-we-do/" class="{% if page.url == '/what-we-do/' %}active{% endif %}">What We
         Do</a>
       <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
