@@ -8,7 +8,6 @@ permalink: /contact/
 
 > _Beyond Transactions, Building Trust_
 
-# Contact
 <footer class="custom-footer">
   <div class="footer-social">
     <a href="https://www.linkedin.com/company/unnati-ventures-fz-llc/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
