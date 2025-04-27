@@ -28,6 +28,3 @@ permalink: /what-we-do/
   - Business plans, investor presentations and transaction structuring
   - Valuation, detailed financial models, due diligence and feasibility studies
   - Accounting, audit, tax advisory and regulatory compliance
-
----
-
