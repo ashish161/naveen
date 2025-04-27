@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terms and Conditions
-order: 5
+order: 6
 permalink: /tnc/
 hidden: true
 ---
