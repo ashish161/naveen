@@ -7,6 +7,7 @@ permalink: /contact/
 ---
 
 > _Beyond Transactions, Building Trust_
+
 # Contact
 
 <div class="footer-social">
