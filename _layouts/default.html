@@ -13,6 +13,13 @@
     integrity="sha512-..." crossorigin="anonymous" />
 
   <style>
+    .container {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0.5rem;
+    }
+
     .links {
       display: flex;
       gap: 1.5rem;
@@ -27,7 +34,7 @@
       transition: color 0.3s ease;
       padding: 0 1rem;
       position: relative;
-      padding-top:40px;
+      padding-top: 40px;
     }
 
     .links a::after {
@@ -89,6 +96,13 @@
       font-weight: 700;
       color: #333;
     }
+
+    h1 {
+      display: block;
+      font-size: 2em;
+      margin:0px;
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -115,26 +129,26 @@
 
     <div>
       <!-- Content Section -->
-      <div>
-        </br>
+      <div class="container">
+
         {{ content }}
-      </div>
 
-      <div class="links">
-        <a href="mailto:naveen@unnati.ae" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-envelope"></i> Email
-        </a>
-        <a href="tel:+971504584204 target=" _blank" rel="noopener noreferrer">
-          <i class="fas fa-phone"></i> Call
-        </a>
-        <a href="https://www.linkedin.com/in/navindaga/" target="_blank" rel="noopener noreferrer">
-          <i class="fab  fa-linkedin"></i> Naveen Daga
-        </a>
-        <a href="https://www.linkedin.com/company/unnati-ventures-fz-llc/" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-      </div>
 
+        <div class="links">
+          <a href="mailto:naveen@unnati.ae" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+          <a href="tel:+971504584204 target=" _blank" rel="noopener noreferrer">
+            <i class="fas fa-phone"></i> Call
+          </a>
+          <a href="https://www.linkedin.com/in/navindaga/" target="_blank" rel="noopener noreferrer">
+            <i class="fab  fa-linkedin"></i> Naveen Daga
+          </a>
+          <a href="https://www.linkedin.com/company/unnati-ventures-fz-llc/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
 
     </div>
     <!-- Footer Section -->
