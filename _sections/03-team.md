@@ -2,6 +2,7 @@
 layout: default
 title: Team
 order: 3
+hide_nav: false
 permalink: /team/
 ---
 

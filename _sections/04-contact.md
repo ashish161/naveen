@@ -2,6 +2,7 @@
 layout: default
 order: 4
 title: Contact
+hide_nav: false
 permalink: /contact/
 ---
 

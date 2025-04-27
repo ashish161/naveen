@@ -17,7 +17,7 @@ title: Home
     </a>
     <ul id="nav-links">
       {% for section in site.sections %}
-        {% unless section.hidden %}
+      {% unless section.hide_nav or section.hidden %}
           <li>
             <a href="#{{ section.title | downcase | replace: ' ', '-' }}">
               {{ section.title }}

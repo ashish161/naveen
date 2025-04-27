@@ -2,6 +2,7 @@
 layout: default
 title: Our Story
 permalink: /our-story/
+hide_nav: false
 order: 1
 ---
 ## Our Story
