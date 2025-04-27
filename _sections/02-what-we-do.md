@@ -7,7 +7,6 @@ order: 2
 ---
 
 # What We Do
-## _Beyond Transactions, Building Trust_
 
 #### Strategic Advisory
   - Strategic market entry and geographic expansion plan
