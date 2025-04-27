@@ -199,7 +199,7 @@ html {
 }
 
 .footer-links a {
-  color:  #293366;
+  color:  grey;
   text-decoration: none;
   margin: 0 8px;
   transition: color 0.2s;
@@ -218,7 +218,7 @@ html {
 .footer-copy {
   margin-top: 14px;
   font-size: 1.05em;
-  color: #293366;
+  color: grey;
   opacity: 0.85;
 }
 
