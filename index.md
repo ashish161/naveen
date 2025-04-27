@@ -2,25 +2,20 @@
 layout: default
 ---
 
-# Dubai Real Estate Market Intelligence
 
-Expert real estate investment analysis and portfolio optimization in Dubai's dynamic market.
+# Our Story
 
-## Our Expertise
+## _Enabling Growth, Empowering Success_
 
-[Discover What We Do]({{ '/what-we-do' | relative_url }}) in Dubai's real estate market:
-- Strategic Partnerships & Joint Transactions
-- Growth Financing Solutions
-- Tailored Banking Solutions
-- Venture Support Services
-- Performance Monitoring
-- India Growth Investment Opportunities
+Unnati — meaning progress, growth, and prosperity — is a boutique advisory firm dedicated to driving business growth and creating long-term value for its stakeholders.
 
-## Why Choose Us?
 
-- **Chartered Accountant & CFA** with deep market expertise
-- **Data-driven analysis** for informed investment decisions
-- **Comprehensive market insights** across prime Dubai assets
-- **Tax-efficient structuring** for optimal returns
+---
+
+## Our Values
+
+* Growth Mindset:  We believe in perpetual learning, resilience and embracing challenges as opportunities for growth.
+* Entrepreneurial Spirit: We drive change,think commercially and innovate with the purpose to create meaningful impact.
+* Stakeholder Focus: We prioritize the needs and aspirations of our stakeholders, building long-term trusted partnerships based on mutual success.
 
 [Contact Us]({{ '/contact' | relative_url }}) 
