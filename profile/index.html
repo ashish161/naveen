@@ -122,6 +122,23 @@
       margin:0px;
       font-weight: bold;
     }
+    @media (max-width: 768px) {
+      nav.links {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav.links img {
+        margin-bottom: 1rem;
+        height: 80px;
+        width: 80px;
+      }
+
+      nav.links a {
+        padding: 0.5rem 0;
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
 
@@ -136,7 +153,7 @@
       <img src="/naveen/assets/images/logo.png" alt="Logo" height="100" width="100" />
       <a href="/naveen/" class="">Home</a>
       <a href="/naveen/profile/" class="active">Profile</a>
-      <a href="/naveen/values/" class="">Vaules</a>
+      <a href="/naveen/values/" class="">Valuses</a>
       <a href="/naveen/what-we-do/" class="">What We
         Do</a>
       <a href="/naveen/contact/" class="">Contact</a>
