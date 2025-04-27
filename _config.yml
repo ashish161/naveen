@@ -16,18 +16,20 @@ show_downloads: false
 logo: /assets/images/logo.png
 
 # Basic settings
-author: Your Name
+author: Naveen Daga 
 google_analytics: # Optional
 
 # SEO settings
-twitter:
-  username: yourhandle
-  card: summary
+
 social:
-  name: Your Name
+  name: Naveen Daga
   links:
-    - https://linkedin.com/in/yourprofile
-    - https://twitter.com/yourhandle
+    - https://www.linkedin.com/in/navindaga/
+
+email: naveen@unnati.ae
+lang: en
+# Keep adding relevant keywors to this list
+keywords: Dubai, real estate, analytics, investment, portfolio optimization, property, advisory
 
 # Collections
 title: My One-Page Site
