@@ -10,9 +10,4 @@ permalink: /contact/
 [Send us an email](mailto:naveen@unnati.ae?subject=Real%20Estate%20Investment%20Inquiry)
 {: .cta-button}
 
----
 
-## Dubai Office
-Business Bay  
-Dubai, United Arab Emirates  
-Email: naveen@unnati.ae
