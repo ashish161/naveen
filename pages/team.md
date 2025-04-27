@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Profile
-permalink: /profile/
+title: Team
+permalink: /team/
 ---
 
-# Profile 
+# Team 
 
 Naveen Daga is a Chartered Accountant and CFA Charterholder with over 16 years of experience across real estate development, mergers and acquisitions, strategic joint ventures, and asset management. 
 
