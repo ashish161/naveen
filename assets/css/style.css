@@ -211,7 +211,7 @@ html {
 }
 
 .footer-links .divider {
-
+  color: grey;
   margin: 0 8px;
 }
 
