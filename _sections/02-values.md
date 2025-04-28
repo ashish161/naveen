@@ -14,6 +14,6 @@ We are advocates of perpetual learning, resilience and embracing challenges as o
 
 We drive change, challenge consensus, and think commercially, embodying an entrepreneurial spirit to innovate and create value for our stakeholders.
 
-## Stakeholder-Centric Approach
+## Stakeholder-Centric 
 
 Our stakeholders’ needs and aspirations take center stage as we cultivate enduring partnerships grounded in trust and shared prosperity.
