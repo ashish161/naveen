@@ -6,6 +6,8 @@ hide_nav: false
 order: 2
 ---
 
+# What We Do
+
 ## Strategic Advisory
 
 - Strategic market entry and geographic expansion plan
@@ -14,7 +16,6 @@ order: 2
 - Business transformation and restructuring solutions 
 
 ## Investment Advisory 
-
 
 - Institutional-grade investment opportunities in UAE and USA real estate sectors
 - Investment opportunities for long term wealth creation in India
