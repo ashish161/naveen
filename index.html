@@ -35,7 +35,7 @@ title: Home
       <section id="{{ section.title | downcase | replace: ' ', '-' }}">
         <!-- Check if section uses cards layout -->
         {% if section.layout == "cards" %}
-          <h2 class="text-center mb-4">{{ section.title }}</h2>
+          <h2 class="text mb-4">{{ section.title }}</h2>
           {% capture cards_content %}{{ section.content | markdownify }}{% endcapture %}
           {% include cards-section.html content=cards_content %}
         {% else %}
