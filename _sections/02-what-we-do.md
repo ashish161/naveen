@@ -6,14 +6,14 @@ hide_nav: false
 order: 2
 ---
 
-## Strategic Market Entry
+## Strategic Advisory
 
 - Strategic market entry and geographic expansion plan
 - Securing growth capital for business expansion 
 - Mergers and acquisition, partnerships and joint venture opportunities 
 - Business transformation and restructuring solutions 
 
-## Investment Opportunities
+## Investment Advisory
 
 - Institutional-grade investment opportunities in UAE and USA real estate sectors
 - Investment opportunities for long term wealth creation in India
