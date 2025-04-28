@@ -9,7 +9,8 @@ permalink: /team/
 ##  Naveen Daga CFA, ACA 
 #### _Partner_ 
 
-<img src="/assets/images/headshot.png" alt="Alt text" height="100px" width ="100px">
+<img src="{{ '/assets/images/headshot.png' | relative_url }}" alt="Site Logo" height="100px" width="100px">
+    <
 <a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn">LinkedIn 
   <i class="fab fa-linkedin-in"/></a>
 
