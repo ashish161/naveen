@@ -6,6 +6,8 @@ hide_nav: false
 permalink: /team/
 ---
 
+# Team
+
 ##  Naveen Daga CFA, ACA 
 #### _Partner_ 
 
