@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Key
+title: Key Achievements
 order: 4
-hide_nav: false
 permalink: /team/
 ---
 
