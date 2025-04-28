@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card { transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <!-- Main H1 from page title -->
+    <h1 class="mb-4 text-center">{{ page.title }}</h1>
+    <!-- Cards rendering -->
+    {% include cards-section.html content=content %}
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

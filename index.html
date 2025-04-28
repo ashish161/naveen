@@ -33,11 +33,19 @@ title: Home
   {% for section in site.sections %}
     {% unless section.hidden %}
       <section id="{{ section.title | downcase | replace: ' ', '-' }}">
-        {{ section.content | markdownify }}
+        <!-- Check if section uses cards layout -->
+        {% if section.layout == "cards" %}
+          <h2 class="text-center mb-4">{{ section.title }}</h2>
+          {% capture cards_content %}{{ section.content | markdownify }}{% endcapture %}
+          {% include cards-section.html content=cards_content %}
+        {% else %}
+          {{ section.content | markdownify }}
+        {% endif %}
       </section>
     {% endunless %}
   {% endfor %}
 </div>
+
 
 <script>
 function toggleNav() {

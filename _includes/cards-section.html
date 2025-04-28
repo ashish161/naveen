@@ -1,0 +1,19 @@
+<div class="row g-4">
+    {% assign sections = include.content | split: '<h2' %}
+    {% for section in sections offset:1 %}
+      {% assign parts = section | split: '</h2>' %}
+      {% assign heading_parts = parts[0] | split: '>' %}
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">
+              {{ heading_parts[1] | strip_html | strip }}
+            </h5>
+            <div class="card-text">
+              {{ parts[1] | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
