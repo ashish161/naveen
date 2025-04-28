@@ -1,17 +1,15 @@
 ---
-layout: default
+layout: cards
 title: Team
 order: 3
 hide_nav: false
 permalink: /team/
 ---
 
-# Team 
-Naveen Daga CFA, ACA 
+##  Naveen Daga CFA, ACA 
+#### _Partner_ 
 
-Partner 
-
-
+<img src="/assets/images/headshot.png" alt="Alt text" height="100px" width ="100px">
 <a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn">LinkedIn 
   <i class="fab fa-linkedin-in"/></a>
 
