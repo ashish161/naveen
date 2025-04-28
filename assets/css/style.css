@@ -179,9 +179,9 @@ html {
   margin: 0 18px;
   border: 2px solid  #293366;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 45px;
+  height: 45px;
+  line-height: 42px;
   text-align: center;
   font-size: 28px;
   transition: background 0.2s, color 0.2s;
