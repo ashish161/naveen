@@ -1,5 +1,5 @@
 ---
-layout: cards
+layout: default
 title: Team
 order: 3
 hide_nav: false
@@ -10,7 +10,7 @@ permalink: /team/
 #### _Partner_ 
 
 <img src="{{ '/assets/images/headshot.png' | relative_url }}" alt="Site Logo" height="100px" width="100px">
-    <
+    
 <a href="https://www.linkedin.com/in/navindaga/" target="_blank" aria-label="LinkedIn">LinkedIn 
   <i class="fab fa-linkedin-in"/></a>
 
