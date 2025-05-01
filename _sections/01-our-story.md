@@ -6,11 +6,11 @@ hide_nav: false
 order: 1
 ---
 
-<h2 id="enabling-growth-empowering-success"  class="alert alert-secondary" style="text-align: center;"><em>E/em></h2>
+<h2 id="enabling-growth-empowering-success"  class="alert alert-secondary" style="text-align: center;"><em>Enabling Growth, Empowering Success<em></h2>
 
 <blockquote class="blockquote">
                 <p class="mb-0">
-                    Enabling Growth, Empowering Success<
+                    Enabling Growth, Empowering Success
                 </p>
             </blockquote>
 
