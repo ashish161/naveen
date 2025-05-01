@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cards
 title: What We Do
 permalink: /what-we-do/
 hide_nav: false
