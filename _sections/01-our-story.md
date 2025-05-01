@@ -6,9 +6,7 @@ hide_nav: false
 order: 1
 ---
 
-## _Enabling Growth, Empowering Success_
-
-<br>  
+<h2 id="enabling-growth-empowering-success" style="text-align: center;"><em>Enabling Growth, Empowering Success</em></h2>
 
 ## Our Story
  
