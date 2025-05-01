@@ -10,7 +10,7 @@ order: 1
 
 <blockquote class="blockquote">
                 <p class="mb-0">
-                    nabling Growth, Empowering Success<
+                    Enabling Growth, Empowering Success<
                 </p>
             </blockquote>
 
