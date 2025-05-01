@@ -19,12 +19,12 @@ order: 2
 
 - Institutional-grade investment opportunities in UAE and USA real estate sectors
 - Investment opportunities for long term wealth creation in India        
-- Wealth and portfolio management solutions
-- Performance monitoring and asset management 
+- Wealth and portfolio management solutions                            
+- Performance monitoring and asset management                       
 
 ## Financial Advisory
 
-- Corporate finance solutions, capital raising and bank financing
-- Business plans, investor presentations and transaction structuring
+- Corporate finance solutions, capital raising and bank financing  
+- Business plans, investor presentations and transaction structuring  
 - Valuation, detailed financial models, due diligence and feasibility studies
-- Accounting, audit, tax advisory and regulatory compliance
+- Accounting, audit, tax advisory and regulatory compliance           
