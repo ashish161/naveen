@@ -9,9 +9,9 @@ order: 1
 
 <blockquote class="blockquote">
                 <p class="mb-0">
-                    em>Enabling Growth, Empowering Success<em>
+                    <em>Enabling Growth, Empowering Success<em>
                 </p>
-            </blockquote>
+</blockquote>
 
 ## Our Story
  
