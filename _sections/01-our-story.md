@@ -6,7 +6,7 @@ hide_nav: false
 order: 1
 ---
 
-# _Enabling Growth, Empowering Success_
+## _Enabling Growth, Empowering Success_
 
 ## Our Story
  
