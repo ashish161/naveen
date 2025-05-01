@@ -7,7 +7,9 @@ order: 1
 ---
 
 <div class="jumbotron">
-  <h1 class="display-4">Unnati</h1>
+   <a href="{{ '/' | relative_url }}" class="nav-logo">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site Logo">
+    </a>
   <p class="lead">Enabling Growth, Empowering Success</p>
   <hr class="my-4">
   <p>Unnati — meaning progress, growth, and prosperity — is a boutique advisory firm dedicated to driving business growth and creating long-term value for its stakeholders.</p>
