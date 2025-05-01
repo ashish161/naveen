@@ -6,6 +6,15 @@ hide_nav: false
 order: 1
 ---
 
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">Enabling Growth, Empowering Success</p>
+  <hr class="my-4">
+  <p>Unnati — meaning progress, growth, and prosperity — is a boutique advisory firm dedicated to driving business growth and creating long-term value for its stakeholders.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-12">
