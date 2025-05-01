@@ -6,7 +6,7 @@ hide_nav: false
 order: 1
 ---
 
-<div class="container my-5">
+<div class="container">
   <div class="row justify-content-center">
     <div class="col-md-12">
       <blockquote class="blockquote text-center p-4 bg-light rounded shadow">
@@ -23,5 +23,4 @@ order: 1
 ## Our Story
  
 Unnati — meaning progress, growth, and prosperity — is a boutique advisory firm dedicated to driving business growth and creating long-term value for its stakeholders.
-
-
+ð
