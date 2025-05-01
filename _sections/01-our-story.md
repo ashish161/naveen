@@ -8,7 +8,7 @@ order: 1
 
 <div class="jumbotron">
    <a href="{{ '/' | relative_url }}" class="nav-logo">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site Logo" height="50px" width="50px">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site Logo" height="150px" width="150px">
     </a>
   <p class="lead">Enabling Growth, Empowering Success</p>
   <hr class="my-4">
