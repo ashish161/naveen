@@ -10,15 +10,15 @@ order: 2
 
 ## Strategic Advisory
 
-- Strategic market entry and geographic expansion plan
-- Securing growth capital for business expansion 
 - Mergers and acquisition, partnerships and joint venture opportunities 
-- Business transformation and restructuring solutions 
+- Strategic market entry and geographic expansion plan                 
+- Securing growth capital for business expansion                        
+- Business transformation and restructuring solutions                   
 
 ## Investment Advisory 
 
 - Institutional-grade investment opportunities in UAE and USA real estate sectors
-- Investment opportunities for long term wealth creation in India
+- Investment opportunities for long term wealth creation in India        
 - Wealth and portfolio management solutions
 - Performance monitoring and asset management 
 
